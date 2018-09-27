@@ -12,6 +12,7 @@ var app = express();
 //Import the mongoose module
 var mongoose = require('mongoose');
 
+
 //Set up default mongoose connection
 var mongoDB = 'mongodb://locallibrary:Jlmnj15243@ds149672.mlab.com:49672/local_library_jlg';
     mongoose.connect(mongoDB);
